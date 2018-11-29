@@ -1,6 +1,6 @@
 # React__RenderProps
 Example
-
+```javascript
 const sum = ( a, b, rp ) => {
 	const result = a + b;
   rp(result);
@@ -18,3 +18,4 @@ const alertFn = (result) => {
 }
 
 sum(43, 1, alertFn);
+```
