@@ -2,7 +2,7 @@
 Example
 ```javascript
 const sum = ( a, b, rp ) => {
-	const result = a + b;
+  const result = a + b;
   rp(result);
 }
 
